@@ -1,4 +1,4 @@
-function countRows() {
+function countRows(GRID) {
     return GRID.length;
 }
 
