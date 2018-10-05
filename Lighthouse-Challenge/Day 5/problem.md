@@ -1,4 +1,4 @@
-# Problem 4
+# Problem 5
 
 Since our GRID is written in coordinates like `A3` or `D8`, we need code that is going to be able to convert those coordinates to the numbers we need to fetch data out of the GRID array(s). All of the lighthouse operators have reported in and we know that their areas never go above Z.
 
