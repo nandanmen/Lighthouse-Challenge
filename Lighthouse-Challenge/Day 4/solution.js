@@ -6,4 +6,4 @@ const gridSize = grid => `${countColumns(grid)} x ${countRows(grid)}`;
 
 const totalCells = grid => countRows(grid) * countColumns(grid);
 
-module.exports = totalCells;
+module.exports = totalCells; 
