@@ -10,7 +10,7 @@ Your job is to write a function called `lightCell()` that takes in the coordinat
 
 ```javascript
 const convertColumn = coordinate => {
-    const colLetter = coordinate.subtr(0, 1).toLowerCase();
+    const colLetter = coordinate.substr(0, 1).toLowerCase();
     return colLetter.charCodeAt(0) - 97;
 }
 

@@ -12,7 +12,7 @@ For example, calling `convertColumn('C4')` should return 2 as the 'C' column is 
 
 ```javascript
 const convertColumn = coordinate => {
-    const colLetter = coordinate.subtr(0,1).toLowerCase();
+    const colLetter = coordinate.substr(0,1).toLowerCase();
     return colLetter.charCodeAt(0) - 97;
 }
 ```
