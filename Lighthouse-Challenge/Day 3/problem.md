@@ -23,4 +23,16 @@ Write a function called `gridSize()` that will tell you the size of your grid in
 
 ---
 
+## Solution
+
+```javascript
+const countRows = grid => grid.length;
+
+const countColumns = grid => grid.length ? grid[0].length : 0;
+
+const gridSize = grid => `${countColumns(grid)} x ${countRows(grid)}`;
+```
+
+---
+
 *Problems courtesy of https://coding-challenge.lighthouselabs.ca/*

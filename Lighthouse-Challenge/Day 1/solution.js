@@ -1,5 +1,3 @@
-function countRows(GRID) {
-    return GRID.length;
-}
+const countRows = grid => grid.length;
 
 module.exports = countRows;

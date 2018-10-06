@@ -23,4 +23,12 @@ Write a function called `countColumns()` that will tell us the number of columns
 
 ---
 
+## Solution
+
+```javascript
+const countColumns = grid => grid.length ? grid[0].length : 0;
+```
+
+---
+
 *Problems courtesy of https://coding-challenge.lighthouselabs.ca/*

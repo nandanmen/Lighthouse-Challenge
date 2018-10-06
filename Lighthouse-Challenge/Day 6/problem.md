@@ -8,4 +8,21 @@ Your job is to write a function called `lightCell()` that takes in the coordinat
 
 ---
 
+## Solution
+
+```javascript
+const convertColumn = coordinate => {
+    const colLetter = coordinate.subtr(0, 1).toLowerCase();
+    return colLetter.charCodeAt(0) - 97;
+}
+
+const lightCell = (grid, coordinate) => {
+    const row = coordinate.substr(1,1) - 1;
+    const col = convertColumn(coordinate);
+    return grid[row][col];
+}
+```
+
+---
+
 *Problems courtesy of https://coding-challenge.lighthouselabs.ca/*

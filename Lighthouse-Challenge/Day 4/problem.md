@@ -8,4 +8,16 @@ Write a new function called `totalCells()` which will return the total number of
 
 ---
 
+## Solution
+
+```javascript
+const countRows = grid => grid.length;
+
+const countColumns = grid => grid.length ? grid[0].length : 0;
+
+const totalCells = grid => countRows(grid) * countColumns(grid);
+```
+
+---
+
 *Problems courtesy of https://coding-challenge.lighthouselabs.ca/*

@@ -23,4 +23,12 @@ Write a function called `countRows()` which will tell us the number of rows in o
 
 ---
 
+## Solution
+
+```javascript
+const countRows = grid => grid.length;
+```
+
+---
+
 *Problems courtesy of https://coding-challenge.lighthouselabs.ca/*
