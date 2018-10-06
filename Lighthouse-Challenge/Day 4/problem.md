@@ -6,8 +6,6 @@ Write a new function called `totalCells()` which will return the total number of
 
 *For the purposes of testing, my solution involves passing the GRID variable.*
 
----
-
 ## Solution
 
 ```javascript

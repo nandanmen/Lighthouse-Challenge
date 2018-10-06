@@ -8,8 +8,6 @@ For example, calling `convertColumn('C4')` should return 2 as the 'C' column is 
 
 *For the purposes of testing, my solution involves passing the GRID variable.*
 
----
-
 ## Solution
 
 ```javascript

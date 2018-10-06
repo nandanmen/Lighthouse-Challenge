@@ -21,8 +21,6 @@ Write a function called `countColumns()` that will tell us the number of columns
 
 *For the purposes of testing, my solution involves passing the GRID variable.*
 
----
-
 ## Solution
 
 ```javascript

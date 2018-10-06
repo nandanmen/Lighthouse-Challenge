@@ -21,8 +21,6 @@ Write a function called `gridSize()` that will tell you the size of your grid in
 
 *For the purposes of testing, my solution involves passing the GRID variable.*
 
----
-
 ## Solution
 
 ```javascript

@@ -6,8 +6,6 @@ Your job is to write a function called `lightCell()` that takes in the coordinat
 
 *For the purposes of testing, my solution involves passing the GRID variable.*
 
----
-
 ## Solution
 
 ```javascript
