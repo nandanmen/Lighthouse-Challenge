@@ -11,4 +11,8 @@ const lightCell = (grid, coordinate) => {
 
 const isRock = (grid, coordinate) => lightCell(grid, coordinate) == "^";
 
-module.exports = isRock; 
+const isCurrent = (grid, coordinate) => lightCell(grid, coordinate) == "~";
+
+const isShip = (grid, coordinate) => lightCell(grid, coordinate) == "v";
+
+module.exports = { isRock, isCurrent, isShip }; 

@@ -1,10 +1,10 @@
-# Problem 7
+# Problem 7 - 9
 
 In the area where the lighthouse is watching, the grid, there are many rocks which ships would need to avoid. Rocks are indicated with the `^` symbol on the grid.
 
 Write a function called `isRock()` which will take in a coordinate in the form of `'C7'` and return a true or a false boolean value depending on whether there is a rock in that cell or not. (Example: `isRock('D1')`; would return true)
 
-*For the purposes of testing, my solution involves passing the GRID variable.*
+*Days 8 - 9 requires writing very similar functions, specifically* `isCurrent()` *and* `isShip()`. *Thus I have combined them together here.*
 
 ## Solution
 
@@ -21,6 +21,10 @@ const lightCell = (grid, coordinate) => {
 }
 
 const isRock = (grid, coordinate) => lightCell(grid, coordinate) == "^";
+
+const isCurrent = (grid, coordinate) => lightCell(grid, coordinate) == "~";
+
+const isShip = (grid, coordinate) => lightCell(grid, coordinate) == "v";
 ```
 
 ---
