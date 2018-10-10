@@ -9,12 +9,15 @@ Write a function called `isRock()` which will take in a coordinate in the form o
 ## Solution
 
 ```javascript
+
+// Constants
 const SYMBOLS = {
     rock: "^",
     current: "~",
     ship: "v"
 }
 
+// Helpers
 const convertColumn = coordinate => {
     const colLetter = coordinate.substr(0, 1).toLowerCase();
     return colLetter.charCodeAt(0) - 97;
@@ -30,6 +33,7 @@ const checkSymbol = (grid, coordinate, symbol) => {
     return lightCell(grid, coordinate) == symbol;
 }
 
+// Required functions
 const isRock = (grid, coordinate) => {
     return checkSymbol(grid, coordinate, SYMBOLS.rock);
 }
