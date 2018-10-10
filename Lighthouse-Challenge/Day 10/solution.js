@@ -1,0 +1,1 @@
+const lightRow = (grid, row) => grid[row-1];
