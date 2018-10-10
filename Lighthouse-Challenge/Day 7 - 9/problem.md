@@ -9,6 +9,12 @@ Write a function called `isRock()` which will take in a coordinate in the form o
 ## Solution
 
 ```javascript
+const SYMBOLS = {
+    rock: "^",
+    current: "~",
+    ship: "v"
+}
+
 const convertColumn = coordinate => {
     const colLetter = coordinate.substr(0, 1).toLowerCase();
     return colLetter.charCodeAt(0) - 97;
@@ -20,11 +26,21 @@ const lightCell = (grid, coordinate) => {
     return grid[row][col];
 }
 
-const isRock = (grid, coordinate) => lightCell(grid, coordinate) == "^";
+const checkSymbol = (grid, coordinate, symbol) => {
+    return lightCell(grid, coordinate) == symbol;
+}
 
-const isCurrent = (grid, coordinate) => lightCell(grid, coordinate) == "~";
+const isRock = (grid, coordinate) => {
+    return checkSymbol(grid, coordinate, SYMBOLS.rock);
+}
 
-const isShip = (grid, coordinate) => lightCell(grid, coordinate) == "v";
+const isCurrent = (grid, coordinate) => {
+    return checkSymbol(grid, coordinate, SYMBOLS.current);
+}
+
+const isShip = (grid, coordinate) => {
+    return checkSymbol(grid, coordinate, SYMBOLS.ship);
+}
 ```
 
 ---
