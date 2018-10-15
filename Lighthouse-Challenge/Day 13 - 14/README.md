@@ -6,7 +6,7 @@ Write a function called `allRocks()` which when called will return an array of t
 
 Write a function called `allCurrents()` which, when called, will return an array of the coordinates of all the strong currents in your grid. (Example: `allCurrents()` should return `['E2', 'C8', 'D8', 'D9', 'E9', 'E10', 'F10']`).
 
-### Day 14 problem
+### Day 14 Problem
 
 Write a function called `allShips()` which, when called, will return an array of the coordinates of all the ships in your grid.
 
