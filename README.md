@@ -2,7 +2,9 @@
 
 This repository contains my solutions to the [21 day coding challenge](https://coding-challenge.lighthouselabs.ca/) hosted by Lighthouse Labs.
 
-Each day has its own folder in the repository (with the exception of some days where the challengers are similar enough that I grouped them together). Each folder contains a `README.md` file that describes the problem and shows my solution. There is also a `solution.js` file that describes the solution and a `solution.test.js` file that contains unit tests for that solution.
+Each day has its own folder (with the exception of some days where the challengers are similar enough that I grouped them together). Each folder contains a `README.md` file that describes the problem and shows my solution. There is also a `solution.js` file that describes the solution and a `solution.test.js` file that contains unit tests for that solution.
+
+For some of the problems that I found challenging I included a thought process section in the `README.md` file.
 
 ## Testing
 
