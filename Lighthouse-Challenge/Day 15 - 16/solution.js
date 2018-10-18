@@ -23,10 +23,17 @@ const getSymbol = (grid, symbol) => {
 }
 
 const allRocks = grid => getSymbol(grid, SYMBOLS.rock);
+const allCurrents = grid => getSymbol(grid, SYMBOLS.current);
 
+/* Required functions */
 const firstRock = grid => {
     const rocks = allRocks(grid);
     return rocks[0];
 }
 
-module.exports = firstRock;
+const firstCurrent = grid => {
+    const currents = allCurrents(grid);
+    return currents[0];
+}
+
+module.exports = { firstRock, firstCurrent };
